@@ -1,5 +1,7 @@
 {
   "name": "projectFly",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
