@@ -46,10 +46,10 @@
   </ion-row>
   <ion-row>
     <ion-col size="6">
-      <ion-img src="assets/img/Performance1.jpeg" alt="Performance_1"></ion-img>
+      <ion-img src="assets/img/Performance1.jpeg" (click)="zoomImage('assets/img/Performance1.jpeg', 'my_image_1')" alt="Performance_1"></ion-img>
     </ion-col>
     <ion-col size="6">
-      <ion-img src="assets/img/Performance2.jpeg" alt="Performance_2"></ion-img>
+      <ion-img src="assets/img/Performance2.jpeg" (click)="zoomImage('assets/img/Performance2.jpeg', 'my_image_2')" alt="Performance_2"></ion-img>
     </ion-col>
   </ion-row>
 </ion-content>
