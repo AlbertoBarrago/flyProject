@@ -1,8 +1,16 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title class="ion-text-center">
-      Home
-    </ion-title>
+    <ion-row>
+      <ion-col>
+        <ion-title class="ion-text-center">
+          {{"TAB1.NAME" | translate}}
+        </ion-title>
+      </ion-col>
+      <ion-col>
+        <ion-img float-right class="flag" src="assets/img/ita-flag.png" (click)="selectIta(translate)"></ion-img>
+        <ion-img float-right class="flag" src="assets/img/eng-flag.png" (click)="selectEng(translate)"></ion-img>
+      </ion-col>
+    </ion-row>
   </ion-toolbar>
 </ion-header>
 
@@ -19,40 +27,30 @@
     <ion-row justify-content-center>
       <ion-col size="8">
         <div class="ion-text-center">
-          <h1>Arte, moda e tradizione in Sardegna</h1>
-          <p>
-            Nella cultura della Sardegna, l’abito della tradizione acquistava la forma di uno scrigno che racchiudeva nella sua tessitura i segni della storia e della vita di ciascuno. Ogni abito era capace di essere la fotografia del vissuto di colui che lo indossava. Taluni segni, talvolta imperscrutabili, si possono rinvenire nella comunicazione contemporanea legata alla moda, dove indossare un abito è diventato un modo per
-            raccontare di sé attraverso veri e propri segni culturali differenziati. Ancora oggi c’è un lungo filo che unisce ogni trama dei nostri corpi.
-          </p>
-          <p>
-            Un filo tessile che accoglie e avvolge. Contiene il corpo del bambino appena nato, il suo sviluppo in età adulta e lo accompagna fino alla morte.
-            Essere vestiti, abbigliati, significa essere a contatto con gli altri, vestirsi è stato, ed è ancora, espressione di comunicazione non verbale, espressione del sotteso bisogno umano di empatia, di essere guardati, ascoltati, capiti finanche da uno sconosciuto che incontriamo per la strada.
-            Un filo tessile univa le comunità della Sardegna antica ed è lo stesso che unisce gli uomini di oggi, avvolti nel bisogno di sentirsi meno soli.
-          </p>
+          <h1>{{"TAB1.TITLE" | translate}}</h1>
+          <p>{{"TAB1.P1" | translate}}</p>
+          <p>{{"TAB1.P2" | translate}}</p>
         </div>
       </ion-col>
     </ion-row>
     <ion-row justify-content-center>
       <ion-col class="ion-text-center" size="auto">
         <div class="ion-text-center" [routerLink]="['/progetto']">
-          <ion-img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Wikimedians_in_Taichung_Logo_Sample-2.svg"
-                   alt="link_1"> </ion-img>
+          <ion-img class="resizeProjectImg" src="assets/img/project.jpg"> </ion-img>
         </div>
-        <h4>Progetto</h4>
+        <h4>{{"PROJECT.NAME" | translate}}</h4>
       </ion-col>
       <ion-col class="ion-text-center" size="auto">
         <div class="ion-text-center" [routerLink]="['/esibizione']">
-          <img src="https://via.placeholder.com/250"
-               alt="link_2">
+          <img src="assets/img/exibitionIcon.jpg">
         </div>
-        <h4>Esibizione</h4>
+        <h4>{{"EXHIBITION.NAME" | translate}}</h4>
       </ion-col>
       <ion-col class="ion-text-center" size="auto">
         <div class="ion-text-center" [routerLink]="['/performance']">
-          <img src="https://via.placeholder.com/250"
-               alt="link_3">
+          <img src="assets/img/performanceIcon.jpg">
         </div>
-        <h4>Performance</h4>
+        <h4>{{"PERFORMANCE.NAME" | translate}}</h4>
       </ion-col>
     </ion-row>
   </ion-grid>

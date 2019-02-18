@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-tab1',
@@ -6,9 +7,17 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page implements OnInit {
-  constructor(){};
+  constructor(private translate: TranslateService){};
 
     ngOnInit() {
 
+    }
+
+    selectIta(translate){
+        translate.use('it');
+    }
+
+    selectEng(translate){
+        translate.use('en');
     }
 }
