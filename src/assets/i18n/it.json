@@ -38,5 +38,33 @@
     "B7":"Scena e costumi",
     "P2":"Un uomo si accinge a fare un passo verso il vuoto, il futuro per lui è già precluso dalla guerra che lo attende. Prima di partire si attarda con la sua compagna, rapito dal fascino dei ricordi che il suo abito sprigiona. Il costume diventa il protagonista di episodi storici e di vicende personali: innamoramento, corteggiamento, matrimonio, lutto, fatti tragici o lieti, tutto ricamato e raccontato sulla stoffa, per comunicare ad altre donne e a tutto il paese il vissuto della propria vita. Ma quei ricami, segni, stoffe, simboli e colori, portano con sé vicende umane ed emotive, l'estrinsecazione del proprio stato d'animo e la poesia dell’esistenza. Un solo vestito durava tutta la vita, raccontava attraverso i suoi ricami la storia di ogni famiglia e dei suoi rapporti con la comunità, racchiudeva nei suoi ornamenti dolore, tenerezza, amore, gioie e dolori ma soprattutto ricordi.",
     "P3":"La performance avrà durata di 35 minuti. Al termine è prevista la possibilità per il pubblico di indossare alcuni pezzi dei costumi tradizionali della Sardegna."
+  },
+  "CALENDAR": {
+    "TITLE": "Calendario",
+    "B1": "Parigi - Francia",
+    "P0": "Studio Galerie B&B",
+    "P1": "Inaugurazione 1 Marzo 2019",
+    "P2": "fino al 3 Marzo 2019 ",
+    "P3": "Performance 1 Marzo 2019",
+    "P4": "6 bis rue des Recollets",
+    "P5": "Paris, France 75010",
+
+
+    "B2": "Mosca - Russia",
+    "P6": "Gallery Triangle",
+    "P7": "Inaugurazione 30 Marzo 2019",
+    "P8": "fino al 1 Aprile 2019",
+    "P9": "Performance 30 Marzo 2019",
+    "P10": "Winzavod Center for Contemporary Art",
+    "P11": "4th Syromyatnicheskiy Lane, 1, Bld. 6",
+    "P12": "105120, Moscow, Russia",
+
+    "B3": "Doha - Qatar",
+    "P14": "Hotel Órix Rotana",
+    "P15": "Inaugurazione 4 Aprile 2019",
+    "P16": "fino al 5 Aprile 2019",
+    "P17": "Performance 4 Aprile 2019",
+    "P18": "Al Matar Street",
+    "P19": "Doha – Qatar"
   }
 }

@@ -1,9 +1,64 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Three
+      <b>{{"CALENDAR.TITLE" | translate }}</b>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-img class="paris-img" [src]="selectParisImage()"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-img  [src]="selectMoscowImage()"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-img src="assets/img/DOHA.jpg"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-start>
+      <ion-col size="9">
+        <h2><b>{{"CALENDAR.B1" | translate }}</b></h2>
+        <p>{{"CALENDAR.P0" | translate }}</p>
+        <p>{{"CALENDAR.P1" | translate }}</p>
+        <p>{{"CALENDAR.P2" | translate }}</p>
+        <p>{{"CALENDAR.P3" | translate }}</p>
+        <p>{{"CALENDAR.P4" | translate }}</p>
+        <p>{{"CALENDAR.P5" | translate }}</p>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-start>
+      <ion-col size="9">
+        <h2><b>{{"CALENDAR.B2" | translate }}</b></h2>
+        <p>{{"CALENDAR.P6" | translate }}</p>
+        <p>{{"CALENDAR.P7" | translate }}</p>
+        <p>{{"CALENDAR.P8" | translate }}</p>
+        <p>{{"CALENDAR.P9" | translate }}</p>
+        <p>{{"CALENDAR.P10" | translate }}</p>
+        <p>{{"CALENDAR.P11" | translate }}</p>
+        <p>{{"CALENDAR.P12" | translate }}</p>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-start>
+      <ion-col size="9">
+        <h2><b>{{"CALENDAR.B3" | translate }}</b></h2>
+        <p>{{"CALENDAR.P14" | translate }}</p>
+        <p>{{"CALENDAR.P15" | translate }}</p>
+        <p>{{"CALENDAR.P16" | translate }}</p>
+        <p>{{"CALENDAR.P17" | translate }}</p>
+        <p>{{"CALENDAR.P18" | translate }}</p>
+        <p>{{"CALENDAR.P19" | translate }}</p>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+
+</ion-content>
