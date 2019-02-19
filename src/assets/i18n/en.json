@@ -66,5 +66,14 @@
     "P17": "Performance 4 April 2019",
     "P18": "Al Matar Street",
     "P19": "Doha – Qatar"
+  },
+  "CONTACTS": {
+    "TITLE": "Contacts",
+    "B1": "CompagniaB",
+    "P1": "phone",
+    "P2": "legal location",
+    "P3": "vat Code",
+    "P4": "tax Code",
+    "B2": "Visit the official site"
   }
 }

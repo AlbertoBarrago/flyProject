@@ -1,9 +1,28 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Four
+      {{"CONTACTS.TITLE" | translate }}
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-grid>
+    <ion-row justify-content-center>
+      <ion-col class="justify-content-start">
+        <h1><b>{{"CONTACTS.B1" | translate }}</b></h1>
+        <p><b>email:</b> info@compagniab.com</p>
+        <p><b>{{"CONTACTS.P1" | translate }}:</b> +39 393 968 3141</p>
+        <p><b>{{"CONTACTS.P2" | translate }}:</b> via Dante, 63c 09128 – Cagliari</p>
+        <p><b>{{"CONTACTS.P3" | translate }}:</b> 03091480925</p>
+        <p><b>{{"CONTACTS.P4" | translate }}:</b> 92121330929</p>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col class="justify-content-start">
+        <h3>{{"CONTACTS.B2" | translate }}</h3>
+        <p><a href="www.beltimentas.com">www.beltimentas.com</a></p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

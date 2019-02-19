@@ -66,5 +66,14 @@
     "P17": "Performance 4 Aprile 2019",
     "P18": "Al Matar Street",
     "P19": "Doha – Qatar"
+  },
+  "CONTACTS": {
+    "TITLE": "Contatti",
+    "B1": "CompagniaB",
+    "P1": "telefono",
+    "P2": "sede legale",
+    "P3": "partita IVA",
+    "P4": "codice fiscale",
+    "B2": "Visita il sito ufficiale"
   }
 }
