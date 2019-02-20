@@ -7,17 +7,17 @@ import {TranslateService} from '@ngx-translate/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page implements OnInit {
-  constructor(private translate: TranslateService){};
+  constructor(private translate: TranslateService) {};
 
     ngOnInit() {
 
     }
 
-    selectIta(translate){
-        translate.use('it');
+    selectIta(){
+        this.translate.use('it');
     }
 
-    selectEng(translate){
-        translate.use('en');
+    selectEng(){
+        this.translate.use('en');
     }
 }

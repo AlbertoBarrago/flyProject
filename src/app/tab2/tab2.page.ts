@@ -6,10 +6,20 @@ import {TranslateService} from '@ngx-translate/core';
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss']
 })
-export class Tab2Page {
+export class Tab2Page implements OnInit{
 
 
-    dismissLoading() {
-        //TODO - magari mettere spinner
+    constructor(private translate: TranslateService) {};
+
+    ngOnInit() {
+
+    }
+
+    selectIta() {
+        this.translate.use('it');
+    }
+
+    selectEng() {
+        this.translate.use('en');
     }
 }

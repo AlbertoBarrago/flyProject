@@ -7,25 +7,33 @@ import {TranslateService} from '@ngx-translate/core';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page implements OnInit {
-    constructor(private translate: TranslateService){};
+    constructor(private translate: TranslateService) {};
 
-    ngOnInit(){
+    ngOnInit() {
 
     }
 
     selectParisImage() {
-        if(this.translate.currentLang === 'en') {
-            return "assets/img/paris.jpg";
+        if (this.translate.currentLang === 'en') {
+            return 'assets/img/paris.jpg';
         } else {
-            return "assets/img/PARIGI.jpg";
+            return 'assets/img/PARIGI.jpg';
         }
     }
 
     selectMoscowImage() {
-        if(this.translate.currentLang === 'en') {
-            return "assets/img/MOSCOW.jpg";
+        if (this.translate.currentLang === 'en') {
+            return 'assets/img/MOSCOW.jpg';
         } else {
-            return "assets/img/MOSCA.jpg";
+            return 'assets/img/MOSCA.jpg';
         }
+    }
+
+    selectIta() {
+        this.translate.use('it');
+    }
+
+    selectEng() {
+        this.translate.use('en');
     }
 }

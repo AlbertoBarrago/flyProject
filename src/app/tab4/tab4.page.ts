@@ -7,5 +7,13 @@ import {TranslateService} from '@ngx-translate/core';
   styleUrls: ['tab4.page.scss']
 })
 export class Tab4Page  {
-    constructor(private translate: TranslateService){};
+    constructor(private translate: TranslateService) {};
+
+    selectIta() {
+        this.translate.use('it');
+    }
+
+    selectEng() {
+        this.translate.use('en');
+    }
 }
