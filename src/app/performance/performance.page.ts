@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// import { PhotoViewer } from '@ionic-native/photo-viewer';
+import { PhotoViewer } from '@ionic-native/photo-viewer/ngx';
 
 @Component({
   selector: 'app-performance',
@@ -8,13 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PerformancePage implements OnInit {
 
-    constructor() { }
+    constructor(private photoViewer: PhotoViewer) {
+    }
 
   ngOnInit() {
   }
-
-    zoomImage = (imageData) => {
-        // PhotoViewer.show(imageData);
+  zoomImage = (imageData, myTitle) => {
+        const options = {
+            share: true, // default is false
+            closeButton: false, // iOS only: default is true
+            copyToReference: true // iOS only: default is false
+        };
+        this.photoViewer.show(imageData, myTitle, options);
     }
 
 }
