@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PhotoViewer } from '@ionic-native/photo-viewer';
+// import { PhotoViewer } from '@ionic-native/photo-viewer';
 
 @Component({
   selector: 'app-performance',
@@ -14,7 +14,7 @@ export class PerformancePage implements OnInit {
   }
 
     zoomImage = (imageData) => {
-        PhotoViewer.show(imageData);
+        // PhotoViewer.show(imageData);
     }
 
 }

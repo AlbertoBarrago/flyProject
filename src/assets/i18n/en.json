@@ -1,4 +1,7 @@
 {
+  "GLOBAL": {
+    "APP_NAME": "Beltimentas"
+  },
   "TAB1": {
     "NAME": "Home",
     "TITLE": "Art, fashion and tradition made in Sardinia",

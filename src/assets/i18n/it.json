@@ -1,4 +1,7 @@
 {
+  "GLOBAL": {
+    "APP_NAME": "Beltimentas"
+  },
   "TAB1": {
     "NAME": "Home",
     "TITLE": "Arte, moda e tradizione in Sardegna",
