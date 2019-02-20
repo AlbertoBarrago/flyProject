@@ -29,7 +29,7 @@
         "@ionic/pro": "2.0.4",
         "@ngx-translate/core": "^11.0.1",
         "@ngx-translate/http-loader": "^4.0.0",
-        "com-sarriaroman-photoviewer": "1.2.0",
+        "com-sarriaroman-photoviewer": "1.1.15",
         "cordova-android": "7.1.4",
         "cordova-ios": "4.5.5",
         "cordova-plugin-device": "^2.0.2",
@@ -81,8 +81,8 @@
                 "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
             },
             "cordova-plugin-ionic-keyboard": {},
-            "com-sarriaroman-photoviewer": {},
-            "cordova-plugin-inappbrowser": {}
+            "cordova-plugin-inappbrowser": {},
+            "com-sarriaroman-photoviewer": {}
         },
         "platforms": [
             "android",

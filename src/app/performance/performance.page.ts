@@ -13,13 +13,8 @@ export class PerformancePage implements OnInit {
 
   ngOnInit() {
   }
-  zoomImage = (imageData, myTitle) => {
-        const options = {
-            share: true, // default is false
-            closeButton: false, // iOS only: default is true
-            copyToReference: true // iOS only: default is false
-        };
-        this.photoViewer.show(imageData, myTitle, options);
-    }
+  zoomImage = (imageDate) => {
+        //this.photoViewer.show(imageDate);
+  }
 
 }
