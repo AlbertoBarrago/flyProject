@@ -91,7 +91,8 @@
                 "GOOGLE_API_KEY_FOR_ANDROID": "AIzaSyBRgXY9VgigygGmMkrYj-xcFwMqMLpYfVQ",
                 "OKHTTP_VERSION": "3.12.0",
                 "LOCATION_USAGE_DESCRIPTION": "This app requires access to your location for navigation purposes"
-            }
+            },
+            "com-sarriaroman-photoviewer": {}
         },
         "platforms": [
             "android",

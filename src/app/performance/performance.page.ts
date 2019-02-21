@@ -17,17 +17,18 @@ export class PerformancePage implements OnInit {
   }
 
   zoomImage(src, title) {
-        const options = {
-            share: true,
-            closeButton: true,
-            copyToReference: true
-        };
-
-        const srcUrl = src.replace(/%20/g, ' ');
+        // const options = {
+        //     share: false,
+        //     closeButton: true,
+        //     copyToReference: true
+        // };
+        //
+        // // const srcUrl = src.replace(/%20/g, ' ');
         // const srcUrl = decodeURIComponent(src);
-
-         this.photoViewer.show(srcUrl, title, options);
+        //
+        //  this.photoViewer.show(srcUrl, title, options);
          console.log('@performanceComp: InfoDevice', this.device);
+         console.log('No zoom for now');
     }
 
 }

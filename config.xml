@@ -90,6 +90,7 @@
         <variable name="LOCATION_USAGE_DESCRIPTION" value="This app requires access to your location for navigation purposes" />
     </plugin>
     <plugin name="cordova-plugin-device" spec="^2.0.2" />
+    <plugin name="com-sarriaroman-photoviewer" spec="1.2.0" />
     <engine name="android" spec="7.1.4" />
     <engine name="ios" spec="4.5.5" />
 </widget>
