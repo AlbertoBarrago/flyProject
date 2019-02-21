@@ -22,6 +22,7 @@
         "@angular/router": "^7.2.2",
         "@ionic-native/core": "^5.0.0",
         "@ionic-native/in-app-browser": "^5.2.0",
+        "@ionic-native/launch-navigator": "^5.2.0",
         "@ionic-native/photo-viewer": "^5.2.0",
         "@ionic-native/splash-screen": "^5.2.0",
         "@ionic-native/status-bar": "^5.0.0",
@@ -32,7 +33,9 @@
         "com-sarriaroman-photoviewer": "1.1.18",
         "cordova-android": "7.1.4",
         "cordova-ios": "4.5.5",
+        "cordova-plugin-actionsheet": "2.3.3",
         "cordova-plugin-device": "^2.0.2",
+        "cordova-plugin-dialogs": "2.0.1",
         "cordova-plugin-inappbrowser": "3.0.0",
         "cordova-plugin-ionic-keyboard": "^2.1.3",
         "cordova-plugin-ionic-webview": "^3.1.2",
@@ -42,6 +45,7 @@
         "core-js": "^2.5.4",
         "ionic-native": "^2.9.0",
         "rxjs": "~6.3.3",
+        "uk.co.workingedge.phonegap.plugin.launchnavigator": "5.0.4",
         "zone.js": "~0.8.29"
     },
     "devDependencies": {
@@ -82,7 +86,12 @@
             },
             "cordova-plugin-ionic-keyboard": {},
             "cordova-plugin-inappbrowser": {},
-            "com-sarriaroman-photoviewer": {}
+            "com-sarriaroman-photoviewer": {},
+            "uk.co.workingedge.phonegap.plugin.launchnavigator": {
+                "GOOGLE_API_KEY_FOR_ANDROID": "AIzaSyBRgXY9VgigygGmMkrYj-xcFwMqMLpYfVQ",
+                "OKHTTP_VERSION": "3.12.0",
+                "LOCATION_USAGE_DESCRIPTION": "This app requires access to your location for navigation purposes"
+            }
         },
         "platforms": [
             "android",
