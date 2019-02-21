@@ -23,8 +23,8 @@ export class PerformancePage implements OnInit {
             copyToReference: true
         };
 
-        // let srcUrl = src.replace(/%20/g, " ");
-        const srcUrl = decodeURIComponent(src);
+        const srcUrl = src.replace(/%20/g, ' ');
+        // const srcUrl = decodeURIComponent(src);
 
          this.photoViewer.show(srcUrl, title, options);
          console.log('@performanceComp: InfoDevice', this.device);
