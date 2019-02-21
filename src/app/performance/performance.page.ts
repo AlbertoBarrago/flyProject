@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { PhotoViewer } from '@ionic-native/photo-viewer/ngx';
 import { Device } from '@ionic-native/device/ngx';
 
 @Component({
@@ -8,27 +7,10 @@ import { Device } from '@ionic-native/device/ngx';
   styleUrls: ['./performance.page.scss'],
 })
 export class PerformancePage implements OnInit {
-    constructor(
-        private photoViewer: PhotoViewer,
-        private device: Device) {
+    constructor(private device: Device) {
     }
 
   ngOnInit() {
   }
-
-  zoomImage(src, title) {
-        // const options = {
-        //     share: false,
-        //     closeButton: true,
-        //     copyToReference: true
-        // };
-        //
-        // // const srcUrl = src.replace(/%20/g, ' ');
-        // const srcUrl = decodeURIComponent(src);
-        //
-        //  this.photoViewer.show(srcUrl, title, options);
-         console.log('@performanceComp: InfoDevice', this.device);
-         console.log('No zoom for now');
-    }
 
 }
