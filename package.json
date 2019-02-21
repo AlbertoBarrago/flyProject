@@ -31,7 +31,6 @@
         "@ionic/pro": "2.0.4",
         "@ngx-translate/core": "^11.0.1",
         "@ngx-translate/http-loader": "^4.0.0",
-        "com-sarriaroman-photoviewer": "1.1.18",
         "cordova-android": "7.1.4",
         "cordova-ios": "4.5.5",
         "cordova-plugin-actionsheet": "2.3.3",
@@ -87,7 +86,6 @@
             },
             "cordova-plugin-ionic-keyboard": {},
             "cordova-plugin-inappbrowser": {},
-            "com-sarriaroman-photoviewer": {},
             "uk.co.workingedge.phonegap.plugin.launchnavigator": {
                 "GOOGLE_API_KEY_FOR_ANDROID": "AIzaSyBRgXY9VgigygGmMkrYj-xcFwMqMLpYfVQ",
                 "OKHTTP_VERSION": "3.12.0",

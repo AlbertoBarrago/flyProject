@@ -8,8 +8,6 @@ import { Device } from '@ionic-native/device/ngx';
   styleUrls: ['./performance.page.scss'],
 })
 export class PerformancePage implements OnInit {
-    private appSettings: any;
-
     constructor(
         private photoViewer: PhotoViewer,
         private device: Device) {
@@ -20,15 +18,16 @@ export class PerformancePage implements OnInit {
 
   zoomImage(src, title) {
         const options = {
-            share: false,
-            closeButton: this.device.platform === 'iOS',
-            copyToReference: this.device.platform === 'iOS'
+            share: true,
+            closeButton: true,
+            copyToReference: true
         };
 
         // let srcUrl = src.replace(/%20/g, " ");
         const srcUrl = decodeURIComponent(src);
 
          this.photoViewer.show(srcUrl, title, options);
+         console.log('@performanceComp: InfoDevice', this.device);
     }
 
 }
