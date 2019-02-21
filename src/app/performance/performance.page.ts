@@ -14,7 +14,7 @@ export class PerformancePage implements OnInit {
   ngOnInit() {
   }
   zoomImage = (imageDate) => {
-        //this.photoViewer.show(imageDate);
+        // this.photoViewer.show(imageDate);
   }
 
 }
