@@ -13,11 +13,11 @@ export class Tab1Page implements OnInit {
 
     }
 
-    selectIta(){
+    selectIta() {
         this.translate.use('it');
     }
 
-    selectEng(){
+    selectEng() {
         this.translate.use('en');
     }
 }

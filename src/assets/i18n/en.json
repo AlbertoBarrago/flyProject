@@ -78,5 +78,13 @@
     "P3": "vat Code",
     "P4": "tax Code",
     "B2": "Visit the official site"
+  },
+  "MAP": {
+    "TITLE:": "Address List",
+    "TEL": "Telephone",
+    "CELL": "Mobile",
+    "ADDRESS": "Address",
+    "EMAIL": "Email",
+    "OPEN_MAP": "Open in map"
   }
 }

@@ -78,5 +78,13 @@
     "P3": "partita IVA",
     "P4": "codice fiscale",
     "B2": "Visita il sito ufficiale"
+  },
+  "MAP": {
+    "TITLE:": "",
+    "TEL": "Telefono",
+    "CELL": "Cellulare",
+    "ADDRESS": "Indirizzo",
+    "EMAIL": "Email",
+    "OPEN_MAP": "Apri nella mappa"
   }
 }

@@ -20,21 +20,18 @@
 	<ion-row>
 		<ion-col>
 			<h4>Cosingius</h4>
-
 			<a onclick="window.open('https://www.cosingius.net/', '_system', 'location=yes');"
 			   href="javascript:0">cosingius.net</a>
-
-			<p>Via Carlo Sanna 235 <br>
-
-			Telefono: +39 3493526376 <br>
-
-			Email: <a href="mailto:info@cosingius.net">info@cosingius.net</a>
+			<p>
+				{{'MAP.TEL'| translate}}: +39 3493526376 <br>
+				{{'MAP.EMAIL'| translate}}: <a href="mailto:info@cosingius.net">info@cosingius.net</a>
 			</p>
-
-			<ion-button (click)="goTo('Senorbì, CA')"> Apri nella mappa
-				<ion-icon slot="start" name="compass" ></ion-icon>
+			<ion-button (click)="goTo('Senorbì, Via Carlo Sanna 235, CA')">
+				{{'MAP.OPEN_MAP'| translate}}
+				<ion-icon slot="start"
+						  name="compass">
+				</ion-icon>
 			</ion-button>
-
 		</ion-col>
 	</ion-row>
 	<ion-row>
@@ -44,18 +41,17 @@
 			<a onclick="window.open('https://www.costumenes.com/', '_system', 'location=yes');"
 			   href="javascript:0">costumenes.com</a>
 
-			<p>Via Lamarmora 75 <br>
-
-				Telefono: 0784 232492 <br>
-
-				Cell: 328 6918429 <br>
-
-				Email: <a href="mailto:busiomargherita@tiscali.it">busiomargherita@tiscali.it</a>
-
+			<p>
+				{{'MAP.TEL'| translate}}: 0784 232492 <br>
+				{{'MAP.CELL'| translate}}: 328 6918429 <br>
+				{{'MAP.EMAIL'| translate}}: <a href="mailto:busiomargherita@tiscali.it">busiomargherita@tiscali.it</a>
 			</p>
 
-			<ion-button (click)="goTo('Nuoro')">Apri nella mappa
-				<ion-icon slot="start" name="compass" ></ion-icon>
+			<ion-button (click)="goTo('Nuoro, Via Lamarmora 75, NU')">
+				{{'MAP.OPEN_MAP'| translate}}
+				<ion-icon slot="start"
+						  name="compass">
+				</ion-icon>
 			</ion-button>
 
 		</ion-col>
@@ -68,35 +64,34 @@
 			<a onclick="window.open('https://www.feelu.it/', '_system', 'location=yes');"
 			   href="javascript:0">feelu.it</a>
 
-			<p>ORFEVRE di R. Manconi <br>
-
-				 <br>
-
-				Cagliari <br>
-
-				Email: <a href="mailto:busiomargherita@tiscali.it">busiomargherita@tiscali.it</a>
+			<p>
+				ORFEVRE di R. Manconi <br>
+				{{'MAP.EMAIL'| translate}}: <a href="mailto:busiomargherita@tiscali.it">busiomargherita@tiscali.it</a>
 			</p>
 
-			<ion-button (click)="goTo('Via Isola di Tavolara 21, NU')">Apri nella mappa
-				<ion-icon slot="start" name="compass" ></ion-icon>
+			<ion-button (click)="goTo('Via Isola di Tavolara 21, NU')">
+				{{'MAP.OPEN_MAP'| translate}}
+				<ion-icon slot="start"
+						  name="compass">
+				</ion-icon>
 			</ion-button>
 		</ion-col>
 	</ion-row>
 	<ion-row>
 		<ion-col>
 			<h4>Maria Luisa Frongia</h4>
-
-			<p>Costumi sardi e ricami <br>
-
-				Telefono: +39 0783 64849 <br>
-
-				+ 39 346 2100772 <br>
-
-				Email: <a href="mailto:raimondopitzalis@yahoo.it">raimondopitzalis@yahoo.it</a>
+			<p>
+				Costumi sardi e ricami <br>
+				{{'MAP.TEL'| translate}}: +39 0783 64849 <br>
+				{{'MAP.CELL'| translate}}: + 39 346 2100772 <br>
+				{{'MAP.EMAIL'| translate}}: <a href="mailto:raimondopitzalis@yahoo.it">raimondopitzalis@yahoo.it</a>
 			</p>
 
-			<ion-button (click)="goTo('Via Manno, 17, Samugheo, OR')">Apri nella mappa
-				<ion-icon slot="start" name="compass" ></ion-icon>
+			<ion-button (click)="goTo('Via Manno, 17, Samugheo, OR')">
+				{{'MAP.OPEN_MAP'| translate}}
+				<ion-icon slot="start"
+						  name="compass">
+				</ion-icon>
 			</ion-button>
 
 		</ion-col>
@@ -108,15 +103,16 @@
 			<a onclick="window.open('https://www.istimentos.it/', '_system', 'location=yes');"
 			   href="javascript:0">www.istimentos.it</a>
 
-			<p>Località Turruia <br>
-
-				Telefono: +39 0783 64524
-				Email: <a href="mailto:info@istimentos.it">info@istimentos.it</a> <br>
-
+			<p> Località Turruia <br>
+				{{'MAP.TEL'| translate}}: +39 0783 64524 <br>
+				{{'MAP.EMAIL'| translate}}: <a href="mailto:info@istimentos.it">info@istimentos.it</a> <br>
 			</p>
 
-			<ion-button (click)="goTo('Zona Industriale di Samugheo, OR')">Apri nella mappa
-				<ion-icon slot="start" name="compass" ></ion-icon>
+			<ion-button (click)="goTo('Zona Industriale di Samugheo, OR')">
+				{{'MAP.OPEN_MAP'| translate}}
+				<ion-icon slot="start"
+						  name="compass">
+				</ion-icon>
 			</ion-button>
 
 		</ion-col>
@@ -129,15 +125,17 @@
 			<a onclick="window.open('https://www.fabrizioloi.it/', '_system', 'location=yes');"
 			   href="javascript:0">www.fabrizioloi.it</a>
 
-			<p> Via Cagliari, 17
-
-				Tel: +39 0781 876155 <br>
-				Cell: +39 347 1426687 <br>
-				Email: <a href="mailto:info@fabrizioloi.it">info@fabrizioloi.it</a>
+			<p>
+				{{'MAP.TEL'| translate}}: +39 0781 876155 <br>
+				{{'MAP.CELL'| translate}}: +39 347 1426687 <br>
+				{{'MAP.EMAIL'| translate}}: <a href="mailto:info@fabrizioloi.it">info@fabrizioloi.it</a>
 			</p>
 
-			<ion-button (click)="goTo('Via Cagliari, 17, Iglesias, CI')">Apri nella mappa
-				<ion-icon slot="start" name="compass" ></ion-icon>
+			<ion-button (click)="goTo('Via Cagliari, 17, Iglesias, CI')">
+				{{'MAP.OPEN_MAP'| translate}}
+				<ion-icon slot="start"
+						  name="compass">
+				</ion-icon>
 			</ion-button>
 
 		</ion-col>
@@ -150,13 +148,15 @@
 			   href="javascript:0">www.sartoriamodolo.com</a>
 
 			<p>
-				Tel: +39 078474990 <br>
-				Cell: +39 3923400529 <br>
-				Email: <a href="mailto:info@sartoriamodolo.com">info@sartoriamodolo.com</a>
+				{{'MAP.TEL'| translate}}: +39 078474990 <br>
+				{{'MAP.CELL'| translate}}: +39 3923400529 <br>
+				{{'MAP.EMAIL'| translate}}: <a href="mailto:info@sartoriamodolo.com">info@sartoriamodolo.com</a>
 			</p>
 
-			<ion-button (click)="goTo('Corso Garibaldi, 141, Orani, NU')">Apri nella mappa
-				<ion-icon slot="start" name="compass" ></ion-icon>
+			<ion-button (click)="goTo('Corso Garibaldi, 141, Orani, NU')">
+				{{'MAP.OPEN_MAP'| translate}}
+				<ion-icon slot="start"
+						  name="compass"></ion-icon>
 			</ion-button>
 
 		</ion-col>
@@ -165,24 +165,21 @@
 		<ion-col>
 
 			<h4>Giancarlo Moi</h4>
-
 			<a onclick="window.open('https://www.sardegnagioielli.com', '_system', 'location=yes');"
 			   href="javascript:0">www.sardegnagioielli.com</a>
 
 			<p>
 				Laboratorio orafo <br>
-
-				Barisardo (NU) <br>
-
-				Tel: +39 078229236 <br>
-
-				Email: <a href="mailto:sardegnagioielli@gmail.com">sardegnagioielli@gmail.com</a>
+				{{'MAP.TEL'| translate}}: +39 078229236 <br>
+				{{'MAP.EMAIL'| translate}}: <a href="mailto:sardegnagioielli@gmail.com">sardegnagioielli@gmail.com</a>
 			</p>
 
-			<ion-button (click)="goTo('Via Pigliaru 6, NU')">Apri nella mappa
-				<ion-icon slot="start" name="compass" ></ion-icon>
+			<ion-button (click)="goTo('Barisardo, Via Pigliaru 6, NU')">
+				{{'MAP.OPEN_MAP'| translate}}
+				<ion-icon slot="start"
+						  name="compass">
+				</ion-icon>
 			</ion-button>
-
 		</ion-col>
 	</ion-row>
 	<ion-row>
@@ -194,14 +191,19 @@
 			   href="javascript:0"> www.sartoriasorellepodda.it</a>
 
 			<p>
-				Tel: +39 070 9930983 <br>
-				Cell: +39 348 3828035 <br>
-				Email: <a href="mailto:sartoriapodda@gmail.com">sartoriapodda@gmail.com</a> <br>
-				Facebook: <a onclick="window.open('https://www.facebook.com/SartoriaSorellePodda/', '_system', 'location=yes')" href="javascript:0"></a>Sartoria Sorelle Podda
+				{{'MAP.TEL'| translate}}: +39 070 9930983 <br>
+				{{'MAP.CELL'| translate}}: +39 348 3828035 <br>
+				{{'MAP.EMAIL'| translate}}: <a href="mailto:sartoriapodda@gmail.com">sartoriapodda@gmail.com</a> <br>
+				Facebook:
+				<a onclick="window.open('https://www.facebook.com/SartoriaSorellePodda/', '_system', 'location=yes')"
+				   href="javascript:0"></a>Sartoria Sorelle Podda
 			</p>
 
-			<ion-button (click)="goTo('Via Roma, 240/D, Muravera, CA')">Apri nella mappa
-				<ion-icon slot="start" name="compass" ></ion-icon>
+			<ion-button (click)="goTo('Via Roma, 240/D, Muravera, CA')">
+				{{'MAP.OPEN_MAP'| translate}}
+				<ion-icon slot="start"
+						  name="compass">
+				</ion-icon>
 			</ion-button>
 
 		</ion-col>
