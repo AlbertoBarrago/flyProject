@@ -29,4 +29,12 @@ export class Tab2Page implements OnInit {
     selectEng() {
         this.translate.use('en');
     }
+
+    selectMainPicture(){
+        if(this.translate.currentLang === 'en') {
+            return 'assets/img/mappa_artigiani_eng.png';
+        } else {
+            return 'assets/img/mappa_artigiani_ita.png';
+        }
+    }
 }
