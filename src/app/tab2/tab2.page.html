@@ -1,23 +1,30 @@
 <ion-header>
-	<ion-toolbar>
-		<ion-img class="logo-main"
-				 src="assets/img/loghi/b_logo.png"
-				 alt="logo"></ion-img>
-		<div class="switchLanguage">
-			<ion-img float-right
-					 class="flag"
-					 src="assets/img/ita-flag.png"
-					 (click)="selectIta()"></ion-img>
-			<ion-img float-right
-					 class="flag"
-					 src="assets/img/eng-flag.png"
-					 (click)="selectEng()"></ion-img>
-		</div>
-	</ion-toolbar>
+    <ion-toolbar>
+        <ion-img class="logo-main"
+                 src="assets/img/loghi/b_logo.png"
+                 alt="logo"></ion-img>
+        <div class="switchLanguage">
+            <ion-img float-right
+                     class="flag"
+                     src="assets/img/ita-flag.png"
+                     (click)="selectIta()"></ion-img>
+            <ion-img float-right
+                     class="flag"
+                     src="assets/img/eng-flag.png"
+                     (click)="selectEng()"></ion-img>
+        </div>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content padding="true">
 	<ion-row>
+        <ion-row>
+            <ion-col>
+                <div class="ion-text-center">
+                    <ion-img src="assets/img/mappa_artigiani.png"></ion-img>
+                </div>
+            </ion-col>
+        </ion-row>
 		<ion-col>
 			<h4>Cosingius</h4>
 			<a onclick="window.open('https://www.cosingius.net/', '_system', 'location=yes');"
