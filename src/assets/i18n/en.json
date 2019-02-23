@@ -68,7 +68,31 @@
     "P16": "until 5 April 2019",
     "P17": "Performance 4 April 2019",
     "P18": "Al Matar Street",
-    "P19": "Doha – Qatar"
+    "P19": "Doha – Qatar",
+
+    "MOVIE": {
+      "TITLE": "Movie screening",
+      "DATE": {
+        "_1": "2 March - 6 PM",
+        "_2": "1 April - 5 PM",
+        "_3": "6 April - 6 PM"
+      },
+      "STOFFA_SOGNI": {
+        "TITLE": "The Stuff of Dreams",
+        "AUTHOR": "by Gianfranco Cabiddu",
+        "DURATION": "(101') - italian with english subtitles"
+      },
+      "JANAS": {
+        "TITLE": "Janas - Stories of women,weaving and wonder",
+        "AUTHOR": "",
+        "DURATION": "Documentary, (63') - italian with english subtitles"
+      },
+      "CABRAS": {
+        "TITLE": "Cabras, where the fables are born",
+        "AUTHOR": "by Raffaello Fusaro",
+        "DURATION": "(68') - italian with english subtitles"
+      }
+    }
   },
   "CONTACTS": {
     "TITLE": "Contacts",

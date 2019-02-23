@@ -68,7 +68,31 @@
     "P16": "fino al 5 Aprile 2019",
     "P17": "Performance 4 Aprile 2019",
     "P18": "Al Matar Street",
-    "P19": "Doha – Qatar"
+    "P19": "Doha – Qatar",
+
+    "MOVIE": {
+      "TITLE": "Proiezione film",
+      "DATE": {
+        "_1": "2 Marzo ore 18:00",
+        "_2": "1 Aprile ore 17:00",
+        "_3": "6 Aprile ore 18:00"
+      },
+      "STOFFA_SOGNI": {
+        "TITLE": "La stoffa dei sogni",
+        "AUTHOR": "di Gianfranco Cabiddu",
+        "DURATION": "(101') - italiano con sottotitoli in inglese"
+      },
+      "JANAS": {
+        "TITLE": "Janas - Storie di donne telai e tesori",
+        "AUTHOR": "",
+        "DURATION": "Documentario, (63') - italiano con sottotitoli in inglese"
+      },
+      "CABRAS": {
+        "TITLE": "Le favole iniziano a Cabras",
+        "AUTHOR": "di Raffaello Fusaro",
+        "DURATION": "(68') - italiano con sottotitoli in inglese"
+      }
+    }
   },
   "CONTACTS": {
     "TITLE": "Contatti",

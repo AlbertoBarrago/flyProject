@@ -11,19 +11,19 @@
 <ion-content padding="true">
   <ion-grid>
     <ion-row justify-content-center>
-      <ion-col size="12" class="justify-content-start">
-        <h1><b>{{"CONTACTS.B1" | translate }}</b></h1>
-        <p><b>email:</b> info@compagniab.com</p>
-        <p><b>{{"CONTACTS.P1" | translate }}:</b> +39 393 968 3141</p>
-        <p><b>{{"CONTACTS.P2" | translate }}:</b> via Dante, 63c 09128 – Cagliari</p>
-        <p><b>{{"CONTACTS.P3" | translate }}:</b> 03091480925</p>
-        <p><b>{{"CONTACTS.P4" | translate }}:</b> 92121330929</p>
+      <ion-col size="auto" ngClass="{ ion-text-center: innerWidth < 500; }">
+        <h1>{{"CONTACTS.B1" | translate }}</h1>
+        <p class="p_body">email: <a href="mailto:info@compagniab.com">info@compagniab.com</a></p>
+        <p class="p_body">{{"CONTACTS.P1" | translate }}: <a href="tel:+393939683141">+39 393 968 3141</a><br></p>
+        <p class="p_body">{{"CONTACTS.P2" | translate }}: via Dante, 63c 09128 – Cagliari</p>
+        <p class="p_body">{{"CONTACTS.P3" | translate }}: 03091480925</p>
+        <p class="p_body">{{"CONTACTS.P4" | translate }}: 92121330929</p>
       </ion-col>
     </ion-row>
     <ion-row justify-content-center>
       <ion-col size="12" class="justify-content-start">
-        <h3 class="ion-text-center">{{"CONTACTS.B2" | translate }}</h3>
-        <p class="ion-text-center"><a onclick="window.open('https://www.beltimentas.com', '_system', 'location=yes');" href="javascript:0">www.beltimentas.com</a></p>
+        <p>{{"CONTACTS.B2" | translate }}</p>
+        <p class="p_body"><a onclick="window.open('https://www.beltimentas.com', '_system', 'location=yes');" href="javascript:0">www.beltimentas.com</a></p>
       </ion-col>
     </ion-row>
     <ion-row justify-content-center>
