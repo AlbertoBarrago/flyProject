@@ -1,9 +1,99 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab Three
-    </ion-title>
+    <ion-img class="logo-main" src="assets/img/loghi/b_logo.png" alt="logo"></ion-img>
+    <div class="switchLanguage">
+      <ion-img float-right class="flag" src="assets/img/ita-flag.png" (click)="selectIta()"></ion-img>
+      <ion-img float-right class="flag" src="assets/img/eng-flag.png" (click)="selectEng()"></ion-img>
+    </div>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content padding="true">
+  <ion-grid>
+    <ion-row justify-content-center>
+      <ion-col size="auto" class="justify-content-start">
+        <ion-img class="calendar_img paris-img" [src]="selectParisImage()"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col size="auto" class="justify-content-start">
+        <ion-img class="calendar_img" [src]="selectMoscowImage()"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col size="auto" class="justify-content-start">
+        <ion-img class="calendar_img" src="assets/img/DOHA.jpg"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col size="12" class="justify-content-start">
+        <h2><b>{{"CALENDAR.B1" | translate }}</b></h2>
+        <p>{{"CALENDAR.P0" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P1" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P2" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P3" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P4" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P5" | translate }}</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row justify-content-center>
+      <ion-col size="12" class="justify-content-start">
+        <p>{{"CALENDAR.MOVIE.TITLE" | translate }} - {{"CALENDAR.MOVIE.DATE._1" | translate }}</p>
+        <p class="p_body"><b>{{"CALENDAR.MOVIE.STOFFA_SOGNI.TITLE" | translate }}</b></p>
+        <p class="p_body">{{"CALENDAR.MOVIE.STOFFA_SOGNI.AUTHOR" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.MOVIE.STOFFA_SOGNI.DURATION" | translate }}</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row justify-content-center>
+      <ion-col size="12" class="justify-content-start">
+        <h2><b>{{"CALENDAR.B2" | translate }}</b></h2>
+        <p>{{"CALENDAR.P6" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P7" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P8" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P9" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P10" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P11" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P12" | translate }}</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row justify-content-center>
+      <ion-col size="12" class="justify-content-start">
+        <p>{{"CALENDAR.MOVIE.TITLE" | translate }} - {{"CALENDAR.MOVIE.DATE._2" | translate }}</p>
+        <p class="p_body"><b>{{"CALENDAR.MOVIE.JANAS.TITLE" | translate }}</b></p>
+        <p class="p_body">{{"CALENDAR.MOVIE.JANAS.DURATION" | translate }}</p><br>
+        <p class="p_body"><b>{{"CALENDAR.MOVIE.STOFFA_SOGNI.TITLE" | translate }}</b></p>
+        <p class="p_body">{{"CALENDAR.MOVIE.STOFFA_SOGNI.AUTHOR" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.MOVIE.STOFFA_SOGNI.DURATION" | translate }}</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row justify-content-center>
+      <ion-col size="12" class="justify-content-start">
+        <h2><b>{{"CALENDAR.B3" | translate }}</b></h2>
+        <p>{{"CALENDAR.P14" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P15" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P16" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P17" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P18" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.P19" | translate }}</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row justify-content-center>
+      <ion-col size="12" class="justify-content-start">
+        <p>{{"CALENDAR.MOVIE.TITLE" | translate }} - {{"CALENDAR.MOVIE.DATE._3" | translate }}</p>
+        <p class="p_body"><b>{{"CALENDAR.MOVIE.JANAS.TITLE" | translate }}</b></p>
+        <p class="p_body">{{"CALENDAR.MOVIE.JANAS.DURATION" | translate }}</p><br>
+        <p class="p_body"><b>{{"CALENDAR.MOVIE.CABRAS.TITLE" | translate }}</b></p>
+        <p class="p_body">{{"CALENDAR.MOVIE.CABRAS.AUTHOR" | translate }}</p>
+        <p class="p_body">{{"CALENDAR.MOVIE.CABRAS.DURATION" | translate }}</p>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+
+</ion-content>

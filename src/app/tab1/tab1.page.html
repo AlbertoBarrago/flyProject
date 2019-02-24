@@ -1,11 +1,72 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab One
-    </ion-title>
+        <ion-img class="logo-main" src="assets/img/loghi/b_logo.png" alt="logo"></ion-img>
+          <div class="switchLanguage">
+              <ion-img float-right class="flag" src="assets/img/ita-flag.png" (click)="selectIta()"></ion-img>
+              <ion-img float-right class="flag" src="assets/img/eng-flag.png" (click)="selectEng()"></ion-img>
+          </div>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content padding="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center">
+          <ion-img class="resizeLogo" src="assets/img/home.png"></ion-img>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col size="12">
+        <div class="ion-text-start">
+          <h1>{{"TAB1.TITLE" | translate}}</h1>
+          <p>{{"TAB1.P1" | translate}}</p>
+          <p>{{"TAB1.P2" | translate}}</p>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col class="ion-text-center" size="auto">
+        <div class="ion-text-center" [routerLink]="['/progetto']">
+          <ion-img class="resizeProjectImg" src="assets/img/project.jpg"> </ion-img>
+        </div>
+        <h4>{{"PROJECT.NAME" | translate}}</h4>
+      </ion-col>
+      <ion-col class="ion-text-center" size="auto">
+        <div class="ion-text-center" [routerLink]="['/esibizione']">
+          <img src="assets/img/exibitionIcon.jpg">
+        </div>
+        <h4>{{"EXHIBITION.NAME" | translate}}</h4>
+      </ion-col>
+      <ion-col class="ion-text-center" size="auto">
+        <div class="ion-text-center" [routerLink]="['/performance']">
+          <img src="assets/img/performanceIcon.jpg">
+        </div>
+        <h4>{{"PERFORMANCE.NAME" | translate}}</h4>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col  size="3">
+        <ion-img class="credit" src="assets/img/loghi/compagniab_logo.png" alt="logo"></ion-img>
+      </ion-col>
+      <ion-col size="3">
+        <ion-img class="credit" src="assets/img/loghi/ue_logo.png" alt="logo"></ion-img>
+      </ion-col>
+      <ion-col size="3">
+        <ion-img class="credit" src="assets/img/loghi/rep_it_logo.png" alt="logo"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col size="3">
+        <ion-img class="credit" src="assets/img/loghi/reg_sard_logo.png" alt="logo"></ion-img>
+      </ion-col>
+      <ion-col size="3">
+        <ion-img class="credit" src="assets/img/loghi/por_logo.png" alt="logo"></ion-img>
+      </ion-col>
+      <ion-col size="3">
+        <ion-img class="credit" src="assets/img/loghi/film_logo.png" alt="logo"></ion-img>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

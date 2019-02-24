@@ -1,1 +1,33 @@
+.logo-main {
+  height: 40px;
+}
+
+.switchLanguage {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.credit {
+  height: 100px;
+}
+
+.p_body {
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+//smartphone
+@media (min-width: 576px) {
+  .ion-text-center {
+    display: none;
+  }
+}
+
+//tablet
+@media (max-width: 576px) {
+  ion-card-content {
+    font-size: 2rem !important;
+  }
+}
 

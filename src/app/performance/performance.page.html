@@ -1,0 +1,51 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-buttons slot="start">
+			<ion-back-button></ion-back-button>
+		</ion-buttons>
+		<ion-title>{{"PERFORMANCE.NAME" | translate}}</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content padding="true">
+	<ion-grid>
+		<ion-row>
+			<ion-col>
+				<ion-img src="assets/img/peformance_inner.jpeg"></ion-img>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col>
+				<h3>{{"PERFORMANCE.TITLE" | translate}}</h3>
+				<p>{{"PERFORMANCE.P1" | translate}}</p>
+				<p>
+					<b>{{"PERFORMANCE.B1" | translate}}</b> Luca Sorrentino
+					<b>{{"PERFORMANCE.B2" | translate}}</b> Elena Piseddu
+				</p>
+
+				<p>
+					<b>{{"PERFORMANCE.B3" | translate}}</b> Alice Capitanio <br>
+					<b>{{"PERFORMANCE.B4" | translate}}</b> Angelo Trofa <br>
+					<b>{{"PERFORMANCE.B5" | translate}}</b> Wendell Ricketts <br>
+					<b>{{"PERFORMANCE.WITH" | translate}}</b> Nunzio Caponio {{"PERFORMANCE.AND" | translate}} Chiara
+					Effe  <br>
+					<b>{{"PERFORMANCE.B6" | translate}}</b> Chiara Effe <br>
+					<b>{{"PERFORMANCE.B7" | translate}}</b> Sinforosa (Salvatore Aresu {{"PERFORMANCE.AND" | translate}}
+					Noemi Tronza)
+				</p>
+				<p>{{"PERFORMANCE.P2" | translate}}</p>
+				<p>{{"PERFORMANCE.P3" | translate}}</p>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col size="6">
+				<ion-img src="assets/img/Performance1.jpeg"
+						 (click)="onViewImg('www/assets/img/Performance1.jpeg','Performance')"></ion-img>
+			</ion-col>
+			<ion-col size="6">
+				<ion-img src="assets/img/Performance2.jpeg"
+						 (click)="onViewImg('www/assets/img/Performance2.jpeg','Performance')"></ion-img>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+</ion-content>

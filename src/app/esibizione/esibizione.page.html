@@ -1,0 +1,47 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-buttons slot="start">
+			<ion-back-button></ion-back-button>
+		</ion-buttons>
+		<ion-title>{{"EXHIBITION.NAME" | translate}}</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content padding="true">
+	<ion-grid>
+		<ion-row>
+			<ion-col>
+				<ion-img src="assets/img/exibition_inner.jpeg"></ion-img>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col>
+				<p>{{"EXHIBITION.P1" | translate}}</p>
+				<p>{{"EXHIBITION.P2" | translate}}</p>
+				<p>{{"EXHIBITION.P3" | translate}}</p>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col size="6">
+				<ion-img src="assets/img/Exibition1.jpg"
+						 (click)="onViewImg('www/assets/img/Exibition1.jpg','Exhibition')"
+				></ion-img>
+			</ion-col>
+			<ion-col size="6">
+				<ion-img src="assets/img/Exibition2.jpg"
+						 (click)="onViewImg('www/assets/img/Exibition2.jpg','Exhibition')"
+				></ion-img>
+			</ion-col>
+			<ion-col size="6">
+				<ion-img src="assets/img/Exibition3.jpg"
+						 (click)="onViewImg('www/assets/img/Exibition3.jpg','Exhibition')"
+				></ion-img>
+			</ion-col>
+			<ion-col size="6">
+				<ion-img src="assets/img/Exibition4.jpg"
+						 (click)="onViewImg('www/assets/img/Exibition4.jpg','Exhibition')"
+				></ion-img>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+</ion-content>

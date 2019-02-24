@@ -1,0 +1,114 @@
+{
+  "GLOBAL": {
+    "APP_NAME": "Beltimentas"
+  },
+  "TAB1": {
+    "NAME": "Home",
+    "TITLE": "Arte, moda e tradizione in Sardegna",
+    "P1":"Nella cultura della Sardegna, l’abito della tradizione acquistava la forma di uno scrigno che racchiudeva nella sua tessitura i segni della storia e della vita di ciascuno. Ogni abito era capace di essere la fotografia del vissuto di colui che lo indossava. Taluni segni, talvolta imperscrutabili, si possono rinvenire nella comunicazione contemporanea legata alla moda, dove indossare un abito è diventato un modo per raccontare di sé attraverso veri e propri segni culturali differenziati. Ancora oggi c’è un lungo filo che unisce ogni trama dei nostri corpi.",
+    "P2":"Un filo tessile che accoglie e avvolge. Contiene il corpo del bambino appena nato, il suo sviluppo in età adulta e lo accompagna fino alla morte. Essere vestiti, abbigliati, significa essere a contatto con gli altri, vestirsi è stato, ed è ancora, espressione di comunicazione non verbale, espressione del sotteso bisogno umano di empatia, di essere guardati, ascoltati, capiti finanche da uno sconosciuto che incontriamo per la strada. Un filo tessile univa le comunità della Sardegna antica ed è lo stesso che unisce gli uomini di oggi, avvolti nel bisogno di sentirsi meno soli."
+  },
+  "PROJECT": {
+    "NAME": "Progetto",
+    "TITLE": "Il Progetto",
+    "P1":"Beltimentas è un format creativo che propone un nuovo punto di vista sul patrimonio identitario sardo legato all’abbigliamento e al costume. Propone una fruizione contemporanea della tradizione, in una prospettiva che intreccia arte, artigianato, design e tradizione etnoantropologica. Utilizza i linguaggi sperimentali dell’arte, del teatro e della fotografia per valorizzare i caratteri etnoantropologici che animano la produzione culturale sarda. Il progetto è frutto del lavoro e della passione di artigiani e designer che attraverso i loro prodotti hanno interagito con curatori, registi, fotografi e attori per portare le suggestioni artistiche d’avanguardia dell’isola in tutto il mondo.",
+    "P2":"Come si compone il progetto Beltimentas:",
+    "P3":"Nei paesi ospitanti verrà allestita una curata mostra fotografica e presentata una breve performance teatrale accompagnata da un’esperienza partecipativa.",
+    "B1":"Il reportage fotografico",
+    "P4":"che verrà esposto a firma di due fotografi internazionali valorizza gli elementi artistici del designisolano, dalle forme, tessuti, pattern della tradizione alle interpretazioni innovative e alle contaminazioni con la contemporaneità.",
+    "B2":"La performance",
+    "P5":"The dress of memories è una performance teatrale che accompagnerà l’esposizione. Un romantico viaggio in cui il protagonista invisibile di una storia d’amore sarà l’abito femminile e la sua funzione sociale nella Sardegna antica. Una fiaba teatrale e musicale in cui i costumi, i ruoli sociali, la vita quotidiana e familiare emergono attraverso il ruolo degli abiti tradizionali. Al termine della performance teatrale il pubblico potrà interagire coi costumi, toccando, annusando e vestendo gli abiti tradizionali sardi, al fine di creare un coinvolgimento emotivo e sensoriale dello spettatore."
+  },
+  "EXHIBITION": {
+    "NAME": "Mostra",
+    "TITLE": "",
+    "P1":"Beltimentas porta lo scatto fotografico oltre il valore della testimonianza e, mescolando realtà e finzione, dà vita a una nuova verità nutrita di desiderio. L’immaginario seduttivo creato dalla fotografia di moda sublima l’esercizio quotidiano del vestirsi per presentarsi sulla scena sociale. I codici di comportamento raccontati dagli abiti vengono così liberati dal proprio contesto originario e si fanno simboli. Grazie a questa trasformazione, la Sardegna dell’Ottocento e quella degli anni Duemila si fondono e rimescolano gli stereotipi dell’identità, per valorizzarne una nuova ibrida, contemporanea e in continua evoluzione. Gli abiti, come protesi simboliche, e le pose, come movimenti degli attori su un palco, costruiscono una nuova narrazione grazie allo sguardo di Lucio Aru e Franco Erre.",
+    "P2":"Così, in questo progetto, la Sardegna si schiude su una linea temporale che abbraccia la piena contemporaneità pur tenendo salde le radici di un sapere secolare. Le vesti e gli accessori propri delle diverse comunità coinvolte in questo viaggio, vengono proposti sotto una luce che valorizza senza sacralizzare, aprendo nuove linee narrative. I confini di genere, gli schemi generazionali, la stretta appartenenza a una geografia specifica si perdono e si confondono nello scorrere degli scatti. Nel nuovo contesto nutrito dei codici comunicativi e dello stile di vita di questi anni, la qualità dei tessuti e delle decorazioni, l’artigianalità della lavorazione si manifestano in tutta la propria preziosità, rivendicando una potenza narrativa che prescinde dai racconti che hanno nutrito la letteratura e la scoperta dell’isola nel secolo scorso. ***",
+    "P3":"In dialogo con lo stupore dei viaggiatori che arrivavano in Sardegna nell’Ottocento, in un Grand Tour alla ricerca dell’esotico e di un elegante autenticità ancora pura rispetto alla rivoluzione industriale in corso, Beltimentas porta il ritratto di una Sardegna più attuale oltre il confine del mare. Lo fa proteggendo i simboli e coltivando il sapere di cui si veste, ma secondo il ritmo e lo spirito del nostro tempo. Fonde il codice femminile di una gonna plissettata con le atmosfere di un ampio cappello in paglia dalle linee minimaliste; infonde di balentía i volti di donne e di uomini che sfrontatamente si presentano in un set teatrale metafisico; bagna della stessa luce esotizzante paesaggi mediterranei e architetture di campagna."
+  },
+  "PERFORMANCE": {
+    "NAME": "The dress of memories",
+    "TITLE": "The dress of memories",
+    "P1":"Una performance teatrale di COMPAGNIA B",
+    "B1":"Direttore di produzione",
+    "B2":"Direzione organizzativa",
+    "B3":"Testo e regia",
+    "B4":"Assistente alla drammaturgia",
+    "B5":"Traduzione e adattamento",
+    "WITH":"Con",
+    "AND":"e",
+    "B6":"Musiche e brani originali",
+    "B7":"Scena e costumi",
+    "P2":"Un uomo si accinge a fare un passo verso il vuoto, il futuro per lui è già precluso dalla guerra che lo attende. Prima di partire si attarda con la sua compagna, rapito dal fascino dei ricordi che il suo abito sprigiona. Il costume diventa il protagonista di episodi storici e di vicende personali: innamoramento, corteggiamento, matrimonio, lutto, fatti tragici o lieti, tutto ricamato e raccontato sulla stoffa, per comunicare ad altre donne e a tutto il paese il vissuto della propria vita. Ma quei ricami, segni, stoffe, simboli e colori, portano con sé vicende umane ed emotive, l'estrinsecazione del proprio stato d'animo e la poesia dell’esistenza. Un solo vestito durava tutta la vita, raccontava attraverso i suoi ricami la storia di ogni famiglia e dei suoi rapporti con la comunità, racchiudeva nei suoi ornamenti dolore, tenerezza, amore, gioie e dolori ma soprattutto ricordi.",
+    "P3":"La performance avrà durata di 35 minuti. Al termine è prevista la possibilità per il pubblico di indossare alcuni pezzi dei costumi tradizionali della Sardegna."
+  },
+  "CALENDAR": {
+    "TITLE": "Calendario",
+    "B1": "Parigi - Francia",
+    "P0": "Studio Galerie B&B",
+    "P1": "Inaugurazione 1 Marzo 2019",
+    "P2": "fino al 3 Marzo 2019 ",
+    "P3": "Performance 1 Marzo 2019",
+    "P4": "6 bis rue des Recollets",
+    "P5": "Paris, France",
+
+
+    "B2": "Mosca - Russia",
+    "P6": "Gallery Triangle",
+    "P7": "Inaugurazione 30 Marzo 2019",
+    "P8": "fino al 1 Aprile 2019",
+    "P9": "Performance 30 Marzo 2019",
+    "P10": "Winzavod Center for Contemporary Art",
+    "P11": "4th Syromyatnicheskiy Lane, 1, Bld. 6",
+    "P12": "105120, Moscow, Russia",
+
+    "B3": "Doha - Qatar",
+    "P14": "Hotel Órix Rotana",
+    "P15": "Inaugurazione 5 Aprile 2019",
+    "P16": "fino al 6 Aprile 2019",
+    "P17": "Performance 5 Aprile 2019",
+    "P18": "Al Matar Street",
+    "P19": "Doha – Qatar",
+
+    "MOVIE": {
+      "TITLE": "Proiezione film",
+      "DATE": {
+        "_1": "2 Marzo ore 18:00",
+        "_2": "1 Aprile ore 17:00",
+        "_3": "6 Aprile ore 18:00"
+      },
+      "STOFFA_SOGNI": {
+        "TITLE": "La stoffa dei sogni",
+        "AUTHOR": "di Gianfranco Cabiddu",
+        "DURATION": "(101') - italiano con sottotitoli in inglese"
+      },
+      "JANAS": {
+        "TITLE": "Janas - Storie di donne telai e tesori",
+        "AUTHOR": "",
+        "DURATION": "Documentario, (63') - italiano con sottotitoli in inglese"
+      },
+      "CABRAS": {
+        "TITLE": "Le favole iniziano a Cabras",
+        "AUTHOR": "di Raffaello Fusaro",
+        "DURATION": "(68') - italiano con sottotitoli in inglese"
+      }
+    }
+  },
+  "CONTACTS": {
+    "TITLE": "Contatti",
+    "B1": "CompagniaB",
+    "P1": "telefono",
+    "P2": "sede legale",
+    "P3": "partita IVA",
+    "P4": "codice fiscale",
+    "B2": "Visita il sito ufficiale"
+  },
+  "MAP": {
+    "TITLE:": "",
+    "TEL": "Telefono",
+    "CELL": "Cellulare",
+    "ADDRESS": "Indirizzo",
+    "EMAIL": "Email",
+    "OPEN_MAP": "Apri nella mappa"
+  }
+}
