@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="beltimentas_app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Beltimentas</name>
     <description>Applicazione ufficiale progetto Beltimentas. Beltimentas è un format creativo che propone un nuovo punto di vista sul patrimonio identitario sardo legato all’abbigliamento e al costume.</description>
     <author email="tommaso.puggioni.work@gmail.com">Tommaso Puggioni</author>
